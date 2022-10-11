@@ -51,7 +51,9 @@
 /*----------------
     PORTFOLIO SECTION
 ------------------*/
-
+.container-custom-medium {
+    max-width: 62.5rem;
+}
 /*------------
     BUTTONS
 --------------*/
