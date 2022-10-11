@@ -1,10 +1,14 @@
 /*------------
+    DEBUG
+--------------*/
+/*------------
     VARIABLES
 --------------*/
 :root {
     --ms-bg-primary-color: #2c3e50;
     --ms-bg-secondary-color: #1abc9c;
     --bs-body-color: white;
+    --ms-text-primary: #2c3e50;
 }
 .ms-body-color {
     background-color: var(--bs-body-color);
@@ -17,6 +21,9 @@
 }
 .ms-bg-secondary-color {
     background-color: var(--ms-bg-secondary-color);
+}
+.ms-text-primary {
+    color: var(--ms-text-primary);
 }
 /*------------
     HEADER
@@ -41,6 +48,10 @@
 .container-custom-small {
     max-width: 40.625rem;
 }
+/*----------------
+    PORTFOLIO SECTION
+------------------*/
+
 /*------------
     BUTTONS
 --------------*/
