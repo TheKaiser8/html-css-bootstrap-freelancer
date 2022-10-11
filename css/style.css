@@ -3,6 +3,7 @@
 --------------*/
 :root {
     --ms-bg-primary-color: #2c3e50;
+    --ms-bg-secondary-color: #1abc9c;
     --bs-body-color: white;
 }
 .ms-body-color {
@@ -13,6 +14,9 @@
 --------------*/
 .ms-bg-primary-color {
     background-color: var(--ms-bg-primary-color);
+}
+.ms-bg-secondary-color {
+    background-color: var(--ms-bg-secondary-color);
 }
 /*------------
     HEADER
@@ -30,6 +34,12 @@
 .ms-main-nav li a {
     text-decoration: none;
     color: var(--bs-body-color);
+}
+/*----------------
+    HERO SECTION
+------------------*/
+.container-custom-small {
+    max-width: 40.625rem;
 }
 /*------------
     BUTTONS
