@@ -1,15 +1,36 @@
 /*------------
     VARIABLES
 --------------*/
-
+:root {
+    --ms-bg-primary-color: #2c3e50;
+    --bs-body-color: white;
+}
+.ms-body-color {
+    background-color: var(--bs-body-color);
+}
 /*------------
     UTILITIES
 --------------*/
-
+.ms-bg-primary-color {
+    background-color: var(--ms-bg-primary-color);
+}
 /*------------
     HEADER
 --------------*/
-
+.ms-main-nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.ms-main-nav li {
+    padding: 0 1rem;
+}
+.ms-main-nav li a {
+    text-decoration: none;
+    color: var(--bs-body-color);
+}
 /*------------
     BUTTONS
 --------------*/
