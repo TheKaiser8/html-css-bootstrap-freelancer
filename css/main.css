@@ -2,17 +2,7 @@
     HERO SECTION
 ------------------*/
 .img-hero {
-    width: 16.5rem;
+    max-width: 16.5rem;
+    width: 100%;
     height: 17.5rem;
-}
-/*----------------
-    PORTFOLIO SECTION
-------------------*/
-.ms-portfolio {
-    overflow: hidden;
-    border-radius: 1rem;
-}
-.ms-portfolio img {
-    max-width: 100%;
-    height: auto;
 }

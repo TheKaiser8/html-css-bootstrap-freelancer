@@ -7,8 +7,8 @@
 .ms-bg-secondary {
     background-color: var(--ms-secondary-color);
 }
-.ms-bg-secondary-light {
-    background-color: var(--ms-secondary-color-light);
+.ms-bg-primary-light {
+    background-color: var(--ms-primary-color-light);
 }
 /*--------------------
     COLORS
@@ -20,7 +20,7 @@
     color: var(--ms-secondary-color);
 }
 .ms-color-secondary-light {
-    color: var(--ms-secondary-color-light);
+    color: var(--ms-primary-color-light);
 }
 .ms-color-grey-dark {
     color: var(--ms-color-grey-dark);

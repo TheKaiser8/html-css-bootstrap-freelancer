@@ -2,7 +2,11 @@
 @import url('utilities.css');
 @import url('typography.css');
 @import url('main.css');
+/*----------------
+    COMPONENTS
+------------------*/
+@import url('components/portfolio.css');
+@import url('components/buttons.css');
+@import url('components/form-element.css');
 
-/*------------
-    BUTTONS
---------------*/
+
