@@ -1,37 +1,7 @@
 @import url('variables.css');
 @import url('utilities.css');
 @import url('typography.css');
-
-/*------------
-    HEADER
---------------*/
-.ms-main-nav ul {
-    display: flex;
-    justify-content: end;
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-.ms-main-nav li {
-    padding: 0 1rem;
-}
-.ms-main-nav li a {
-    text-decoration: none;
-    color: currentColor;
-}
-.navbar-brand {
-    font-weight: 700;
-}
-.navbar-nav {
-    font-weight: 600;
-}
-/*----------------
-    HERO SECTION
-------------------*/
-
-/*----------------
-    PORTFOLIO SECTION
-------------------*/
+@import url('main.css');
 
 /*------------
     BUTTONS

@@ -7,3 +7,6 @@ body {
 .title-color {
     color: var(--ms-color-grey-dark);
 }
+.title-weight-600 {
+    font-weight: 600;
+}
