@@ -1,30 +1,7 @@
-/*------------
-    DEBUG
---------------*/
-/*------------
-    VARIABLES
---------------*/
-:root {
-    --ms-bg-primary-color: #2c3e50;
-    --ms-bg-secondary-color: #1abc9c;
-    --bs-body-color: white;
-    --ms-text-primary: #2c3e50;
-}
-.ms-body-color {
-    background-color: var(--bs-body-color);
-}
-/*------------
-    UTILITIES
---------------*/
-.ms-bg-primary-color {
-    background-color: var(--ms-bg-primary-color);
-}
-.ms-bg-secondary-color {
-    background-color: var(--ms-bg-secondary-color);
-}
-.ms-text-primary {
-    color: var(--ms-text-primary);
-}
+@import url('variables.css');
+@import url('utilities.css');
+@import url('typography.css');
+
 /*------------
     HEADER
 --------------*/
@@ -40,20 +17,16 @@
 }
 .ms-main-nav li a {
     text-decoration: none;
-    color: var(--bs-body-color);
+    color: currentColor;
 }
 /*----------------
     HERO SECTION
 ------------------*/
-.container-custom-small {
-    max-width: 40.625rem;
-}
+
 /*----------------
     PORTFOLIO SECTION
 ------------------*/
-.container-custom-medium {
-    max-width: 62.5rem;
-}
+
 /*------------
     BUTTONS
 --------------*/
