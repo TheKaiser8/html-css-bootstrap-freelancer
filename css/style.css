@@ -19,6 +19,9 @@
     text-decoration: none;
     color: currentColor;
 }
+.navbar-brand {
+    font-weight: bold;
+}
 /*----------------
     HERO SECTION
 ------------------*/
