@@ -20,7 +20,10 @@
     color: currentColor;
 }
 .navbar-brand {
-    font-weight: bold;
+    font-weight: 700;
+}
+.navbar-nav {
+    font-weight: 600;
 }
 /*----------------
     HERO SECTION
