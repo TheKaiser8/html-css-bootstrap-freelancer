@@ -22,6 +22,10 @@
 .ms-color-secondary-light {
     color: var(--ms-secondary-color-light);
 }
+.ms-color-grey-dark {
+    color: var(--ms-color-grey-dark);
+}
+
 /*--------------------
     CONTAINERS
 ---------------------*/

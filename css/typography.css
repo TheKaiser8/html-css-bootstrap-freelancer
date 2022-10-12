@@ -4,3 +4,6 @@
 body {
     color: #fff;
 }
+.title-color {
+    color: var(--ms-color-grey-dark);
+}
