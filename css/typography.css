@@ -10,3 +10,6 @@ body {
 .title-weight-600 {
     font-weight: 600;
 }
+.divider-star i {
+    font-size: 2rem;
+}

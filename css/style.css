@@ -1,3 +1,6 @@
+/*----------------
+    CORE
+------------------*/
 @import url('variables.css');
 @import url('utilities.css');
 @import url('typography.css');
@@ -8,5 +11,21 @@
 @import url('components/portfolio.css');
 @import url('components/buttons.css');
 @import url('components/form-element.css');
+@import url('components/circle-box.css');
 
-
+.divider-star::before {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    max-width: 70px;
+    width: 100%;
+    background-color: currentColor;
+}
+.divider-star::after {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    max-width: 70px;
+    width: 100%;
+    background-color: currentColor;
+}
